@@ -24,5 +24,6 @@ end
  
 class_comparison("Ruby",1)
 class_comparison("1.00",true)
-c("Ruby","Ruby")
-comparison("Ruby","Programming")
+class_comparison("Ruby","Ruby")
+class_comparison("Ruby","Programming")
+
