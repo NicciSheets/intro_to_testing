@@ -13,8 +13,16 @@ comparison(21,22)
 
 
 
+def class_comparison(a,b)
+	if a.class == b.class
+		puts "True"
+	else
+		puts "False"
+	end
+end
 
  
-comparison("Ruby".class,1.class)
-comparison("1.00".class,true.class)
-comparison("Ruby".class,"Ruby".class)
+class_comparison("Ruby",1)
+class_comparison("1.00",true)
+c("Ruby","Ruby")
+comparison("Ruby","Programming")
